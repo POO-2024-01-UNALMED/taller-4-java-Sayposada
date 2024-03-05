@@ -1,5 +1,6 @@
 package classroom;
-public class taller4 {
+
+public class Taller4 {
 
     public static void main(String[] args) {
         Persona[] estudiantes1 = new Persona[3];
@@ -28,4 +29,3 @@ public class taller4 {
         System.out.println(new Persona("Alejandro").cedula);
     }
 }
-

@@ -7,4 +7,3 @@ public enum Tipo {
 		this.codigo = codigo;
 	}
 }
-
