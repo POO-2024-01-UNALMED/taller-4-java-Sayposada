@@ -1,5 +1,7 @@
 package classroom;
-public class grupo {
+
+public class Grupo {
+
     public Persona[] estudiantes;
     public Persona profesor;
     public Asignatura asignatura;
@@ -15,7 +17,7 @@ public class grupo {
     }
 
     public Grupo(int cantidadEstudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
-        this (new Persona[cantidadEstudiantes], profesor, asignatura, codigo, horario);
+        this(new Persona[cantidadEstudiantes], profesor, asignatura, codigo, horario);
     }
 
     public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura) {
@@ -38,4 +40,3 @@ public class grupo {
         estudiantes[indice] = estudiante;
     }
 }
-

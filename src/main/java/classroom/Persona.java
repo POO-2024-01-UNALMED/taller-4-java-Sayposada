@@ -1,5 +1,7 @@
 package classroom;
-public class persona {
+
+public class Persona {
+
     final long cedula;
     String nombre;
     static int totalPersonas;
