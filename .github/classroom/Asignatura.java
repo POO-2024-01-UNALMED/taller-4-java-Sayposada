@@ -1,4 +1,4 @@
-package classroom;
+
 public class Asignatura {
 
   public String nombre;
